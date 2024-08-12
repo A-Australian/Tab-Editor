@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Renamer",
+  "version": "1.0",
+  "description": "Rename a extension with just the right click menu!.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
